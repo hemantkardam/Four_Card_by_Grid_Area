@@ -68,7 +68,12 @@ h1,h2{
 }
 
 
-@media (width < 900px){
+@media (width < 940px){
+    .box{
+        
+        max-width: 350px;
+        margin: auto;
+    }
     .container{
         grid-template-areas: 
         ' superviser '
